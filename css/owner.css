@@ -1,0 +1,150 @@
+/* general css application*/
+  
+ 
+
+  /* navbar section ends here */
+
+/* css for content starts here */
+.formatcontent{
+    display: flex;
+}
+#content{
+padding-left:0;
+}
+.postresponse{
+    margin-top: 7%;
+    margin-left: 3%;
+    border:2px solid red;
+}
+.content{ 
+    margin-top:3%;
+    padding:10px 0;
+    background-color: aliceblue;
+    /* border:2px solid blue;  */
+    width:15%;
+    min-height: 300px;
+}
+.content2{
+    display:none;
+    margin-top:7%;
+    background-color: aliceblue;
+    padding-left:8%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    /* border:2px solid blue; */
+    width:20%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.content3{
+    /* display:none; */
+    margin-top:7%;
+    /* background-color: aliceblue; */
+    padding-left:4%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    /* border:2px solid blue; */
+    width:39%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+    max-height: 300px; 
+}
+.buttonclass{
+    display:block;
+    float:left;
+    width:100%;
+    background-color:bisque;
+    padding-top:2%;
+    padding-bottom:20%;
+    padding-left:0;
+    min-height: 300px;
+    z-index: 1;
+    margin-top: 2%; 
+    /* border:2px solid red; */
+    padding-left:10%;
+    
+}
+
+form{
+    width:78%;
+     margin-left:0%;
+    /* border:2px solid green; */
+    float:center;
+}
+
+.show{
+    display:none;
+}
+.showposthostel{
+    display:block;
+}
+.sidebar{
+    margin-left:1%;
+    font-size: large;
+    padding-inline: 10%;
+}
+.buttonclass ul{
+    list-style-type: none;
+    margin-left:0;
+}
+.buttonclass ul li{
+    padding: 3%;
+    background-color: aqua;
+    width:90%;
+    margin-bottom: 10px;
+}
+.buttonclass ul li:hover{
+    padding:1%;
+    border:1px solid black;
+    border-radius: 5px;
+    width:90%;
+}
+.buttonclass ul li a{
+    text-decoration: none;
+}
+.buttonclass ul li:active{
+background-color:blueviolet;
+}
+.btn{
+    background-color: rgb(171, 230, 225);
+    border:none;
+    padding:3%;
+}
+.btn:hover{
+    background-color:green;
+}
+
+.heading {
+    text-align:center;
+    color:blue;
+    text-shadow: red;
+    margin-top:0%;
+    margin-bottom:1%; 
+}
+.headdiv{
+
+    width:100%;
+    background-color: aqua;
+    margin:0;
+    padding:0;
+}
+.fixedhead{
+    position:fixed;
+    top:0;
+    
+}
+.clearfix{
+ clear: both;
+ float: none;
+}
+
+/* css for content ends here */
+
+  /* social media css starts here*/
+  
+  /* social media css ends here*/
+
+  /* footer css starts here*/
+ 
+
+  /* footer css ends here*/

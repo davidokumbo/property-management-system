@@ -1,0 +1,267 @@
+/* KM rental management system homepage css*/
+
+/*removing default css settings on listed properties*/
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Css applied to all named attributes below in the whole webpage*/
+.landlord_deleted{
+    color:palegreen;
+    margin-right: 10%;
+}
+.container{
+    width:100%;
+    margin: 0 auto;
+    padding:auto;
+    
+}
+.text-right{
+    text-align:right;
+}
+.showlist{
+    display: block;
+}
+
+
+.heading {
+    text-align:center;
+    color:blue;
+    text-shadow: red;
+    margin-top:0%;
+    margin-bottom:1%; 
+    
+}
+.headdiv{
+    width:100%;
+    background-color: aqua;
+    margin:0;
+    padding:0;
+}
+.fixedhead{
+    position:fixed;
+    top:0;
+
+}
+    
+.clearfix{
+    clear:both;
+    float:none;
+}
+.sticky{
+    position:fixed;
+    top: 0;  
+}
+.text-center{
+    text-align:center;
+}
+
+
+/*css navbar section starts here*/
+/*.navbar{
+    margin:auto;
+    padding:auto;
+    border: 5px solid purple;
+}*/
+
+.menu{
+    background-color:aqua;
+    padding: 1% 0;
+    width:100%;
+    margin:0;
+    
+    
+}
+  
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 2%;
+    margin:0%;
+
+    
+}
+.menu ul li{
+    display: inline;
+    padding:3%;
+    font-weight:1% ;
+}
+.menu ul li a{
+    color:darkslategray;
+    text-decoration: none;
+    line-height: 4%;
+}
+
+.menu ul li a:hover{
+    background-color:darkgoldenrod;
+    color:darkmagenta;
+    font-weight: bold;
+    border-radius:5px;
+    padding: 5px;
+
+}
+/*css navbar section endshere*/
+
+
+/*css for About us section starts here*/
+.about-us{
+    float:relative;
+    margin:4%;
+    padding:5%;
+    background-color: aliceblue;
+
+}
+.kmphoto{
+   display:flex;
+    /* border:2px solid greenyellow; */
+}
+.photo{
+    width:60%;
+    /* border:2px solid red; */
+    
+}
+/* .photologin{
+    background-color: aqua;
+    margin-top: 10%;
+    width: auto;
+} */
+.btnphoto{
+    background-color: aqua;
+    margin-top: 20%;
+    padding:2% 30%;
+    font-size: larger;
+}
+.btnphoto:hover{
+    border:none ;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.phototext{
+    width:40%;
+    text-align: center;
+    padding:10% 2% 0 2%;
+    
+}
+.sidephotodescription{
+margin-bottom: 2%;
+}
+.ourservicediv{
+    /* border: 2px solid yellow;  */
+    display:flex;
+
+}
+.our-services{
+    width:70%;
+    float:left;  
+    margin: 5% ;
+    padding:5% 2%;
+    /* border: 2px solid black; */
+}
+.color1{
+background-color:aquamarine;
+}
+.color2{
+    background-color: cornflowerblue;
+}
+.color3{
+    
+    background-color: chartreuse;
+}
+.color4{
+    background-color: darkorange;
+}
+/* .photodisplaydiv{
+    z-index: -10%;
+    overflow: hidden;
+    height:800px;
+    width:1200px;
+    margin-left:360px;
+} */
+.slideimages{
+    display: flex;
+    margin:2% 0;
+}
+.imagecontainer{
+    width:100%;
+    /* border:2px solid red; */
+    overflow: hidden;
+    height:55vh;
+    margin:0 1%;
+}
+.imagecontainer:hover{
+    opacity: 0.9;   
+}
+/* slide animation */
+/* @-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+ 
+}
+.slideimages{
+   width:3600px;
+   height:800px;
+   margin:0 0 0 -2400px;
+   position:relative;
+   -webkit-animation-name: slide animation; 
+   -webkit-animation-duration:33s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction:alternate ;
+   -webkit-animation-play-state: running;
+}
+.imagecontainer{
+    height:800px;
+    width:1200px;
+    position:relative;
+    float:left;
+} */
+/* end of slide animation */
+.testimonyheading{
+    text-align: center;
+}
+.testimonyformarterdiv{
+    /* border: 3px solid red; */
+    display: flex;
+    padding:0 0%;
+}
+.testimonydiv{
+    /* border: 3px solid blue; */
+    margin: 0 5%;
+    width: 40%;
+}
+/*css for About us section endshere*/
+
+
+/*Social media section starts here*/
+
+
+
+/*Social media section ends here*/
+
+/*footer section ends here*/
+
+/*footer section ends here*/
+
+
+/* responsiveness*/
+@media only screen and (max-width:768px){
+    .menu{
+        text-align: center;
+    }
+    .our-services{
+       width:100%;  
+     }
+        
+}
+

@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+                      /* INDEX.PHP CSS STARTS HERE */
+}
+.heading {
+    text-align:center;
+    color:blue;
+    text-shadow: red;
+    margin-top:0%;
+    margin-bottom:1%; 
+}
+.headdiv{
+
+    width:100%;
+    background-color: aqua;
+    margin:auto;
+    padding:0;
+}
+.fixedhead{
+    position:fixed;
+    top:0; 
+}
+.clearfix{
+ clear: both;
+ float: none;
+}
+
+/* general dropdown */
+.dropdown{
+    margin-top:8%;
+    padding-top:1%;
+    padding-bottom:15%;
+    padding-left: 4%;
+    padding-right:4%;
+    display:flex;
+    border:2px solid red;
+    height: auto;
+}
+.btn{
+    background-color: palegreen;
+    padding: 20% 60%;
+    border:none;
+}
+/* dropdown1 starts here */
+.dropdown1{
+    position:relative;
+    display:inline-block;
+    margin-right: 5%;
+}
+.dropdown-content1{
+    position: absolute;
+    display: none;
+    padding: 10px;
+}
+
+.dropdown1:hover .dropdown-content1{
+    display:block;
+}
+.dropdown-content1 a{
+    text-decoration: none;
+    background-color: gray;
+    color: whitesmoke;
+    padding:0 9px;
+    margin:5%;
+    display: block;
+}
+
+.dropdown-content1 a:hover{
+background-color:darkmagenta;
+}
+
+/* dropdown 1 ends here */
+
+/* dropdown 2 starts here */
+.dropdown2{
+    position:relative;
+    display:inline-block;
+    margin-right: 5%;
+}
+.dropdown-content2{
+    position: absolute;
+    display: none;
+    padding: 10px;
+}
+.dropdown-content2 a{
+    text-decoration: none;
+    background-color: gray;
+    color: whitesmoke;
+    padding:0 9px;
+    margin:5%;
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content2{
+    display:block;
+}
+
+.dropdown-content2 a:hover{
+background-color:darkmagenta;
+}
+
+/* dropdown 2 ends here */
+
+                           /* INDEX.PHP CSS ENDS HERE*/
+
+
+                           /* LANDLORD.PHP CSS STARTS HERE */
+
+
+form{
+    padding:10px 15px;
+    width:15%;
+    margin:2% 2% 0% 10%;   
+    background-color: darkgray;
+}
+.headform{
+    margin:2%;
+    color:palegreen;
+}
+.submitbtn{
+    background-color: palegreen;
+    margin:10% 2% 0% 10%; 
+    padding:2%;
+    font-weight: bold;
+    border:none;
+    text-decoration: none;
+}
+.submitbtn:hover{
+    background-color: darkgreen;
+}
+.submitbtn a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.tbl{
+    width:70%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding:2px;
+    text-align:left;
+}
+table tr td{
+    padding:3px;
+}
+.updatebtn{
+    background-color: rgba(47, 0, 255, 0.482);
+  
+  
+}
+.updatebtn:hover{
+    background-color: blue;
+    color:white;
+}
+.deletebtn{
+    background-color: rgba(255, 0, 0, 0.275);
+}
+.deletebtn:hover{
+    background-color: red;
+}
+.back{
+    background-color:grey;
+    margin:2% 3%;
+    padding:1% 2%;
+    border: none;
+}
+.back a{
+    text-decoration: none;
+    color:white;
+}
+.back:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+
+                           /* LANDLORD.PHP CSS ENDS HERE */
+
+
+                           /* DELETE.PHP STARTS HERE*/
+.landlord_deleted{
+    color:palegreen;
+    margin-right: 10%;
+}
+.no_landlord_deletion{
+    color:red;
+}
+.passwordbtn{
+    background-color: palegreen;
+    color:white;
+}
+
+.passwordbtn:hover{
+    background-color: green;
+}
+.passwordbtn a{
+text-decoration: none;
+color:white;
+}
+.passwordbtn a:hover{
+    background-color: green;
+}
+
+                           /* DELETE.PHP ENDS HERE */

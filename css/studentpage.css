@@ -1,0 +1,98 @@
+/* general css application*/
+  
+ 
+
+  /* navbar section ends here */
+
+  /* css for content starts here */
+ .zindexnotification{
+    z-index: 10;
+ }
+.content{ 
+    margin-top:7%;
+    padding:10px 0;
+    background-color: aliceblue; 
+    /* border: 3px solid blue; */
+    display: flex;
+    
+}
+.checkhosteldiv{
+    /* border:1px solid black ; */
+    box-shadow:  rgba(123, 255, 0, 0.5);
+    display:block;
+    min-height:100px;
+    max-height:350px;
+    width:70%;
+    background-color:azure;
+    overflow-y: scroll;
+}
+.showlist{
+    display:none;
+}
+.checkdetails{
+    display:none;
+}
+.showdetails{
+    display:block;
+}
+.closesidebar{
+    float:right;
+    text-decoration: none;
+    margin-right:4%;
+    font-size: 30px;
+    color:black;
+}
+.buttonclass{
+    text-align:left;
+    width:20%;
+    background-color:bisque;
+    padding:0% 0 20% 0;
+    /* border:2px solid red; */
+    width:20%; 
+    margin-right:5%;
+}
+.buttonclass ul{
+    list-style-type: none;
+    margin-left:0;
+}
+.buttonclass ul li{
+    padding: 3%;
+}
+.btn{
+    background-color: rgb(171, 230, 225);
+    border:none;
+    padding:3%;
+}
+.heading {
+    text-align:center;
+    color:blue;
+    text-shadow: red;
+    margin-top:0%;
+    margin-bottom:1%; 
+}
+.headdiv{
+
+    width:100%;
+    background-color: aqua;
+    margin:0;
+    padding:0;
+}
+.fixedhead{
+    position:fixed;
+    top:0; 
+}
+.clearfix{
+ clear: both;
+ float: none;
+}
+
+/* css for content ends here */
+
+  /* social media css starts here*/
+  
+  /* social media css ends here*/
+
+  /* footer css starts here*/
+ 
+
+  /* footer css ends here*/

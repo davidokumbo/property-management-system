@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Users/Dadid/OneDrive/Desktop/mpesalaravel"
+		},
+		{
+			"path": "../../../../Users/Dadid/OneDrive/Desktop/javarest"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "disabled",
+		"java.project.sourcePaths": []
+	}
+}

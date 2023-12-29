@@ -1,0 +1,29 @@
+
+   { 
+     "colors": [ 
+                    {
+                        "Green":"gohmahia",
+                        "Blue": "chelsea",
+                        "Red":"Manu", 
+                        "Yellow":"everton"
+                    },
+
+                    {
+                        "Green":"gohmahia",
+                        "Blue": "chelsea",
+                        "Red":"Manu", 
+                        "sky":[
+                        { "blue":"morning",
+                            "grey":"afternoon",
+                            "dark":"night"
+                        },
+                        {
+                            "midnight":"morning",
+                            "midday":"afternoon",
+                            "midmorning":"night"
+                        }
+                        ]
+                    }
+            
+                ]
+   }

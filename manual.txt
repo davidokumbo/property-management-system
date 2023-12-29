@@ -1,0 +1,22 @@
+                                                                            User manual
+Install xampp server and paste the path in htdocs  folder in xamp
+Start xampp server and go to phpmyadmin on xampp server and create a database named  km_rentaldb
+
+Create the following tables
+1. Userdetails
+Columns: usertype(text), name(text), phonenumber(int 10),email(varchar 100 primary key), username(varchar 100),password(varchar 100),status(int 1), date(timestamp)
+2. Requests
+Columns: requestno(int auto increment), response(varchar), no(int 255), hostel_name(text), roomnumber(int 100), type(text), location(varchar), rent_per_month(int 100), deposit(int 50), phonenumber(int 10), student_email_address(varchar 100), owner_email_address(varchar 100), date(timestamp)
+3. Pendingbooking
+Columns:  no(int 255), hostel_name(text), roomnumber(int 100), type(text), location(varchar), rent_per_month(int 100), deposit(int 50), owner_name(text), phonenumber(int 10), student_email_address(varchar 100), owner_email_address(varchar 100), date(timestamp)
+4.Hostels
+Columns:   no(int 255), hostel_name(text), roomnumber(int 100), type(text), location(varchar), rent_per_month(int 100), deposit(int 50), owner_name(text), phonenumber(int 10), student_email_address(varchar 100), owner_email_address(varchar 100), date(timestamp)
+5.booking
+Columns: dbautono(auto increment),  no(int 255), hostel_name(text), roomnumber(int 100), type(text), location(varchar), rent_per_month(int 100), deposit(int 50), owner_name(text), phonenumber(int 10), student_email_address(varchar 100), owner_email_address(varchar 100), date(timestamp)
+
+After creating and saving the tables go to the browser and type the following url
+localhost/KM.rental management system/frontend/homepage.php
+admin email: admin@gmail.com
+admin username: admin
+admin password david22
+
